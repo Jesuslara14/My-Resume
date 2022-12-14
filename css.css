@@ -1,0 +1,44 @@
+body
+{
+    background-image: linear-gradient(to bottom right, white 50%, silver, gray);
+    background-repeat: no-repeat;
+    height: 723px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+h3
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+
+.box
+{
+    width: 350px;
+    height: 250px;
+    border: 5px aliceblue solid;
+    background-image: linear-gradient(to bottom left, silver 5%, white 90%);
+    border-radius: 40px;
+    transition: 0.5s;
+    margin: 20px;
+    padding: 12px;
+}
+
+.box:hover
+{
+    transform: scale(150%) rotateY(360deg);
+    justify-self: center;
+}
